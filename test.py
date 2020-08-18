@@ -20,7 +20,7 @@ if __name__ == '__main__':
     net = net.to(device)
     if device == 'cuda':
         net = torch.nn.DataParallel(net)
-        cudnn.benchmark = True
+        torch.backends.cudnn.benchmark = True
     net.eval()
 
     original_label = get_predict_label(original_img, net)
