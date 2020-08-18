@@ -1,6 +1,4 @@
-Sign-Flip-Attack
-================
-# Introduction
+# Sign-Flip-Attack
 This is the **Pytorch** code of our ECCV2020 paper "Boosting Decision-based Black-box Adversarial Attacks with Random Sign Flip" (SFA). <br>
 In this paper, we proposed a simple and efficient decision-based black-box l-inf adversarial attack.
 
@@ -12,8 +10,7 @@ In this paper, we proposed a simple and efficient decision-based black-box l-inf
 
 # Usage
 We provide an example of how to perform targeted and untargeted attacks with SFA in `test.py`. `original_img.png` and `target_img.png` are randomly selected from ImageNet. <br>
-Quick start
-```CUDA_VISIBLE_DEVICES=[gpu id] python test.py```
+Run ```CUDA_VISIBLE_DEVICES=[gpu id] python test.py```
 
 # Citing this work
 If you find this work is useful, please consider citing our paper. We provide a BibTeX entry of our paper below:
