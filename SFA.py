@@ -7,7 +7,7 @@ def SFA(x, y, model, resize_factor=1., x_a=None, targeted=False, max_queries=100
     :param x: original images, torch tensor of size (b,c,h,w)
     :param y: original labels for untargeted attacks, target labels for targeted attacks, torch tensor of size (b,)
     :param model: target model
-    :param resize_factor: dimensionality reduction rate, > 1.0
+    :param resize_factor: dimensionality reduction rate, >= 1.0
     :param x_a: initial images for targeted attacks, torch tensor of size (b,c,h,w). None for untargeted attacks
     :param targeted: attack mode, True for targeted attacks, False for untargeted attacks
     :param max_queries: maximum query number
