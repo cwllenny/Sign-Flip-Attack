@@ -12,8 +12,8 @@ In this paper, we proposed a simple and efficient decision-based black-box l-inf
 We provide an example of how to perform targeted and untargeted attacks with SFA in `test.py`. `original_img.png` and `target_img.png` are randomly selected from ImageNet. <br>
 Run ```CUDA_VISIBLE_DEVICES=[gpu id] python test.py```
 
-# Citing this work
-If you find this work is useful, please consider citing our paper. We provide a BibTeX entry of our paper below:
+# Citation
+If you find this work useful, please consider citing our paper. We provide a BibTeX entry of our paper below:
 
 ```
 @inproceedings{Chen2020boosting,
