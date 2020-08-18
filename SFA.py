@@ -40,7 +40,7 @@ def SFA(x, y, model, resize_factor=1., x_a=None, targeted=False, max_queries=100
             iters += 1
             if iters > 10000:
                 print('Initialization Failed!')
-                return
+                return x, torch.zeros(x.size(0))
     # linf binary search
     x_a = binary_infinity(x_a, x, y, 10, model, targeted)
     delta = x_a - x
