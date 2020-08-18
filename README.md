@@ -1,6 +1,5 @@
 # Sign-Flip-Attack
-This is the **Pytorch** code of our ECCV2020 paper "Boosting Decision-based Black-box Adversarial Attacks with Random Sign Flip" (SFA). <br>
-In this paper, we proposed a simple and efficient decision-based black-box l-inf adversarial attack.
+This is the **Pytorch** code of our ECCV2020 paper "Boosting Decision-based Black-box Adversarial Attacks with Random Sign Flip" (SFA). In this paper, we proposed a simple and efficient decision-based black-box l-inf adversarial attack.
 
 # Dependencies
 * Python 3.6
